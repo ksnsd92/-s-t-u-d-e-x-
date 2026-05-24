@@ -4223,3 +4223,5 @@ function library:playerlist(options)
 	cfg.labels.uid = self:label({ name = "User Id: ??" })
 	return setmetatable(cfg, library)
 end
+
+return library
